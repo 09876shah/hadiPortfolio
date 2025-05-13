@@ -1,0 +1,21 @@
+.contact-cont {
+  background: url("../../assets/About/bgCover.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form-cont {
+  background: url("../../assets//Contact/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 420px) {
+  .contact-btns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-form {
+    width: 90vw;
+  }
+}

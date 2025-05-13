@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Iceland&display=swap");
+.navbar {
+  font-family: "Big Shoulders Display", serif;
+}
+#MobileNav {
+  display: none;
+}
+.mobilenav-cont {
+  position: absolute;
+  right: -100%;
+  transition: all ease-in-out 0.3s;
+}
+.mobilenav-open {
+  left: 0;
+}
+@media screen and (max-width: 950px) {
+  .navbar {
+    display: none;
+  }
+  #MobileNav {
+    display: block;
+  }
+  .close-mobile-nav {
+    z-index: 999 !important;
+    background: #000;
+  }
+}

@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Iceland&display=swap");
+#home-page {
+  background: url("../../assets/home/bg.png") center/cover no-repeat;
+  min-height: 100vh;
+}
+#Hero {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  font-family: "Big Shoulders Display", serif;
+}
+
+.profile-img img:first-child {
+  filter: brightness(2.5) contrast(5) hue-rotate(-74deg) saturate(278);
+}
+
+.profile-data ul li label {
+  font-family: "Iceland", serif;
+}
+
+.hero-active-quest {
+  font-family: "Iceland", serif;
+}
+
+@media screen and (max-width: 950px) {
+  #Hero {
+    padding-top: 3rem;
+  }
+  .hero-container {
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+  }
+  .hero-left-profile {
+    width: 100%;
+  }
+  .profile-img {
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+  .hero-active-quest {
+    width: 100%;
+  }
+}

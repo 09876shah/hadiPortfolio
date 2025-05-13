@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Iceland&display=swap");
+#footer {
+  font-family: "Big Shoulders Display", serif;
+  letter-spacing: 1.5px;
+  padding: 2rem 0;
+  padding-top: 2.8rem;
+  overflow: hidden;
+}
+
+.footer-cont ul li:first-child h2 {
+  /* background-image: url("../../assets/home/Subtract1.png"); */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-cont ul li h2 {
+  /* background-image: url("../../assets/home/Subtract2.png"); */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-cont ul a:hover {
+  color: black !important;
+}
+.footer-tag-h2 {
+  /* background: url("../../assets/home/Subtract1.png"); */
+  background: url("../../assets/home/Subtract2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.footer-tag-li {
+  border-left: 5px solid #242425;
+}
+.active-border {
+  border-left: 5px solid red;
+}
+.active-footer-tag {
+  background: url("../../assets/home/Subtract1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.MobileFooter {
+  display: none;
+}
+
+.MobileNav-btn {
+  display: none;
+}
+@media screen and (max-width: 750px) {
+  .MobileFooter {
+    display: block;
+  }
+  #footer {
+    display: none;
+  }
+  .mobile-footer-h2-tag {
+    background-size: cover !important;
+  }
+  .MobileNav-btn {
+    display: block;
+  }
+}

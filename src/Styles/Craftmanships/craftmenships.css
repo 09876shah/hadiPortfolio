@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Iceland&display=swap");
+.craftmanshps-main {
+  background: url("../../assets/Logs/bgCover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Iceland", serif;
+}
+
+.Craftmanships .skills-icons {
+  background: url("../../assets/craft/Rectangle.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+}
+.Craftmanships div:nth-child(3) h2 {
+  background: url("../../assets/home/Subtract1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* @media screen and (max-width: 1100px) {
+  .Craftmanships {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .skills-icons {
+    width: 100%;
+  }
+  #progress-component {
+    width: 100%;
+  }
+}*/
+
+@media screen and (max-width: 1424px) {
+  .Craftmanships {
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .craftemanships-first-text-data p {
+    width: 100%;
+  }
+  .Craftmanships {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .Craftmanships {
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills-icons {
+    width: 100%;
+    text-align: center;
+  }
+  #progress-component {
+    width: 100%;
+  }
+  .card {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .card-img {
+    border-right: none;
+    border-bottom: 1px solid #1d1d20;
+    padding: 10px;
+  }
+  .card-text {
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 950px) {
+  #craftmanshps-main-id {
+    width: unset;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Craftmanships {
+    gap: 20px;
+  }
+  .progress {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .progress p {
+    width: auto;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .card-text h1 {
+    font-size: 18px;
+  }
+  .card-text p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Craftmanships {
+    padding: 10px;
+  }
+  .skills-icons {
+    padding: 10px;
+  }
+  .card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .card-img {
+    padding: 5px;
+  }
+  .card-text {
+    padding: 5px;
+  }
+}

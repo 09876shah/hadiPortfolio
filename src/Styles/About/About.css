@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Iceland&display=swap");
+
+.about-img {
+  background: url("../../assets/About/Rectangle.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-cont {
+  background: url("../../assets/About/bgCover.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-text {
+  font-family: "Iceland", serif;
+}
+
+@media screen and (max-width: 1350px) {
+  .about-img {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .about-img img {
+    width: 100%;
+    height: 50vh;
+    min-width: 150px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .line {
+    max-width: 300px;
+  }
+  .about-text {
+    flex-direction: column;
+  }
+  .about-img img {
+    width: 100%;
+    height: 60vh;
+    min-width: 150px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .about-cont {
+    width: 100%;
+  }
+  .about-text {
+    flex-direction: row;
+  }
+  .about-text {
+    align-items: center;
+  }
+  .about-text-box p:first-child {
+    text-align: left !important;
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-text {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 20px;
+  }
+  .line {
+    display: none;
+  }
+
+  .about-text .flex {
+    flex-direction: column;
+    /* text-align: center; */
+    gap: 8px;
+  }
+
+  .about-text p.text-end {
+    text-align: center;
+    width: auto;
+  }
+
+  .about-text p.text-sm {
+    width: auto;
+  }
+
+  .about-img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
